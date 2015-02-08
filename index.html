@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Hezi's Web Project</title>
+		
+		<style>
+		
+		/*
+		 * Define two classes for box of 50% width solid yellow border for the subjects line of charts.
+		 * The text is red.
+		 * The box sticks to the left.
+		 * The difference between Left and Right are the volumes of the inner side.
+		 * [note for myself] A class name starts with a period.
+		 */
+		
+		   .divBoxForSubjectsLeft{
+		   		box-sizing:border-box;
+		   		width:50%;
+		   		color:#FE2E2E;
+		   		border:5px solid #FACC2E;
+		   		border-right:2.5px solid #FACC2E;
+		   		border-bottom:2.5px solid #FACC2E;
+		   		float:left;	
+		   }
+		   .divBoxForSubjectsRight{
+		   		box-sizing:border-box;
+		   		width:50%;
+		   		color:#FE2E2E;
+		   		border:5px solid #FACC2E;
+		   		border-left:2.5px solid #FACC2E;
+		   		border-bottom:2.5px solid #FACC2E;
+		   		float:left;	
+		   }
+		   
+		   		/*
+		 * Define two classes for box of 50% width solid yellow border for the lists of charts.
+		 * The text is organge.
+		 * The difference between Left and Right are the volumes of the inner side.
+		 */
+		   
+		   .divBoxForListsLeft{
+		   		box-sizing:border-box;
+		   		width:50%;
+		   		color:#FE642E;
+		   		border:5px solid #FACC2E;
+		   		border-top:2.5px solid #FACC2E;
+		   		border-bottom:2.5px solid #FACC2E;
+		   		border-right:2.5px solid #FACC2E;
+		   		float:left;
+		   }
+		   .divBoxForListsRight{
+		   		box-sizing:border-box;
+		   		width:50%;
+		   		color:#FE642E;
+		   		border:5px solid #FACC2E;
+		   		border-top:2.5px solid #FACC2E;
+		   		border-bottom:2.5px solid #FACC2E;
+		   		border-left:2.5px solid #FACC2E;
+		   		float:left;
+		  }
+		  
+		</style>
+		
+	</head>
+	
+	<body>
+		<!-- Adding some humor to the page-->
+		<h1>Q: Why is the computer so cold?</h1>
+		<h2>A: You left the windows open.</h2>
+		
+		
+		<!-- Made two boxes to create the subjects for a chart -->
+		<div class="divBoxForSubjectsLeft">MY FAVORITE PLACES IN NYC</div>
+		<div class="divBoxForSubjectsRight">HERE IS WHY</div>
+		
+		<!-- Made two boxes to create the subjects for a chart -->
+		<div class="divBoxForListsLeft">Roosevelt Island</div>
+		<div class="divBoxForListsRight">It was my beat!</div>
+		<div class="divBoxForListsLeft">Chelsea Market</div>
+		<div class="divBoxForListsRight">Have you tried the lobster roll?</div>
+		<div class="divBoxForListsLeft">Cafe China</div>
+		<div class="divBoxForListsRight">Best Chinese food in Manhattan</div>
+		<!-- The volume of the bottom border is adjusted because it is the last line. -->
+		<div class="divBoxForListsLeft" style="border-bottom:5px solid #FACC2E">Columbia University</div>
+		<div class="divBoxForListsRight" style="border-bottom:5px solid #FACC2E">Have you taken the data visualization class?</div>
+				
+	</body>
+</html>
